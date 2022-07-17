@@ -3,10 +3,6 @@ import traceback
 import PySimpleGUI as sg
 from VkUserBot import VkUserBot, read_token
 from logger import Logger
-"""
-TODO:
--timer: make timer (request counter) in the main thread, and transfer API to sub-thread
-"""
 from vkbottle import VKAPIError
 
 
